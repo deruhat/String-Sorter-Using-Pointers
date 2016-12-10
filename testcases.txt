@@ -1,0 +1,50 @@
+/* 
+=====================
+Abdulellah Abualshour
+Marshal Nink
+=====================
+*/
+
+Test Case 1:
+	Input:	"word9zebra ZebrA Zebra_zoo9tangerine"
+	Output:	ZebrA
+		Zebra
+		tangerine
+		word
+		zebra
+		zoo
+	
+Test Case 2:
+	Input:	"a B b C c dee d D e(f)g"
+	Output:	B
+		C
+		D
+		a
+		b
+		c
+		d
+		dee
+		e
+		f
+		g
+				
+Test Case 3:
+	Input:	""
+	Output:	No words have been entered.
+	
+Test Case 4:
+	Input:	" "
+	Output:	No words have been entered.
+	
+Test Case 5:
+	Input:	"845740777042$%^&**&^%"
+	Output:	No words have been entered.
+	
+Test Case 6:
+	Input:	"z y x_w_v*z"
+	Output:	v
+		w
+		x
+		y
+		z
+		z
